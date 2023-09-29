@@ -10,3 +10,6 @@
 Слова через дефис
 
 сокращения
+
+
+https://universaldependencies.org/u/pos/index.html
