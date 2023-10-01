@@ -4,9 +4,9 @@
 ганаш	NOUN
 готовить	VERB
 очень	ADV
--	ADV
+-	PUNCT
 очень	ADV
-просто	PART
+просто	ADJ
 ,	PUNCT
 и	CCONJ
 рассказывать	VERB
@@ -23,7 +23,7 @@
 
 # sent_id = 2
 # text = Стили катания на маунтинборде полностью аналогичны сноубордическим — фристайл, фрирайд, карвинг, бордеркросс и пр.
-Стили	VERB
+Стили	NOUN
 катания	NOUN
 на	ADP
 маунтинборде	NOUN
@@ -38,7 +38,8 @@
 карвинг	NOUN
 ,	PUNCT
 бордеркросс	NOUN
-и пр.	PUNCT
+и	CCONJ
+пр.	NOUN
 
 # sent_id = 3
 # text = Не забудьте посолить смесь, также к льезону можно добавить специй.
@@ -79,17 +80,17 @@
 ,	PUNCT
 готовы	ADJ
 ли	PART
-спагетти	PROPN
+спагетти	NOUN
 ,	PUNCT
 их	PRON
 надо	ADV
 попробовать	VERB
 «	PUNCT
-аль	PART
+аль	INTJ
 денте	NOUN
 »	PUNCT
 ,	PUNCT
-то	SCONJ
+то	PRON
 есть	VERB
 на	ADP
 зуб	NOUN
@@ -110,7 +111,7 @@
 на	ADP
 участке	NOUN
 ,	PUNCT
-что	SCONJ
+что	PRON
 располагался	VERB
 верстах	NOUN
 в	ADP
@@ -125,7 +126,7 @@
 
 # sent_id = 7
 # text = Нда, ну я несмотря на свой мега-супер-пупер-перфекционизм пожалуй буду согласен на 4.
-Нда	PROPN
+Нда	INTJ
 ,	PUNCT
 ну	PART
 я	PRON
@@ -133,12 +134,8 @@
 на	ADP
 свой	DET
 мега	NOUN
--	NOUN
-супер	NOUN
--	NOUN
-пупер	NOUN
--	NOUN
-перфекционизм	NOUN
+-	PUNCT
+супер-пупер-перфекционизм	NOUN
 пожалуй	ADV
 буду	AUX
 согласен	ADJ
@@ -158,9 +155,7 @@
 У	ADP
 меня	PRON
 тут	ADV
-какая	DET
--	DET
-то	DET
+какая-то	DET
 мусоринка	NOUN
 попала	VERB
 сюда	ADV
@@ -190,9 +185,7 @@
 Что	PRON
 ты	PRON
 хочешь	VERB
-что	PRON
--	PRON
-то	PRON
+что-то	PRON
 там	ADV
 шерхнуть	VERB
 ?	PUNCT
@@ -213,9 +206,7 @@
 # text = Технология приготовления су-вид родилась во Франции и дословно переводится «в вакууме».
 Технология	NOUN
 приготовления	NOUN
-су	NOUN
--	NOUN
-вид	NOUN
+су-вид	NOUN
 родилась	VERB
 во	ADP
 Франции	PROPN
@@ -230,7 +221,7 @@
 
 # sent_id = 15
 # text = Да он не отличает Тинторетто от амаретто.
-Да	PART
+Да	CCONJ
 он	PRON
 не	PART
 отличает	VERB
@@ -271,7 +262,7 @@
 компоте	NOUN
 кладут	VERB
 цедру	NOUN
-цитрусовых	ADJ
+цитрусовых	NOUN
 ,	PUNCT
 корицу	NOUN
 ,	PUNCT
@@ -305,7 +296,7 @@
 ,	PUNCT
 тогда	ADV
 поземка	NOUN
--	NOUN
+-	PUNCT
 полземка	NOUN
 .	PUNCT
 
@@ -337,9 +328,7 @@
 недели	NOUN
 оформить	VERB
 «	PUNCT
-по	ADV
--	ADV
-музыкальному	ADJ
+по-музыкальному	ADJ
 »	PUNCT
 класс	NOUN
 .	PUNCT
@@ -356,8 +345,7 @@
 кучу	NOUN
 песен	NOUN
 с	ADP
-муз	NOUN
-.	PUNCT
+муз.	NOUN
 центра	NOUN
 .	PUNCT
 
@@ -366,7 +354,7 @@
 Увы	ADV
 ,	PUNCT
 любимцы	NOUN
-муз	PROPN
+муз	NOUN
 ,	PUNCT
 свершился	VERB
 жребий	NOUN

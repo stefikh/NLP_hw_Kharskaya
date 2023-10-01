@@ -1,12 +1,12 @@
-# sent_id = 1
+# sent_id = 1 
 # text = Сам ганаш готовить очень-очень просто, и рассказывать там, по сути дела, не о чем.
 Сам	ADJ
 ганаш	NOUN
 готовить	VERB
 очень	ADV
--	ADV
+-	PUNCT
 очень	ADV
-просто	PART
+просто	ADJ
 ,	PUNCT
 и	CCONJ
 рассказывать	VERB
@@ -16,12 +16,12 @@
 сути	NOUN
 дела	NOUN
 ,	PUNCT
-не	PART
+не	VERB
 о	ADP
 чем	PRON
 .	PUNCT
 
-# sent_id = 2
+# sent_id = 2 
 # text = Стили катания на маунтинборде полностью аналогичны сноубордическим — фристайл, фрирайд, карвинг, бордеркросс и пр.
 Стили	VERB
 катания	NOUN
@@ -29,7 +29,7 @@
 маунтинборде	NOUN
 полностью	ADV
 аналогичны	ADJ
-сноубордическим	ADJ
+сноубордическим	NOUN
 —	PUNCT
 фристайл	NOUN
 ,	PUNCT
@@ -38,9 +38,11 @@
 карвинг	NOUN
 ,	PUNCT
 бордеркросс	NOUN
-и пр.	PUNCT
+и	CCONJ
+пр	NOUN
+.	PUNCT
 
-# sent_id = 3
+# sent_id = 3 
 # text = Не забудьте посолить смесь, также к льезону можно добавить специй.
 Не	PART
 забудьте	VERB
@@ -55,7 +57,7 @@
 специй	NOUN
 .	PUNCT
 
-# sent_id = 4
+# sent_id = 4 
 # text = Классическая форма турне напоминает бочонок или овальный американский футбольный мяч.
 Классическая	ADJ
 форма	NOUN
@@ -69,7 +71,7 @@
 мяч	NOUN
 .	PUNCT
 
-# sent_id = 5
+# sent_id = 5 
 # text = Как известно, чтобы узнать, готовы ли спагетти, их надо попробовать «аль денте», то есть на зуб.
 Как	SCONJ
 известно	ADJ
@@ -79,23 +81,21 @@
 ,	PUNCT
 готовы	ADJ
 ли	PART
-спагетти	PROPN
+спагетти	VERB
 ,	PUNCT
 их	PRON
 надо	ADV
 попробовать	VERB
-«	PUNCT
-аль	PART
-денте	NOUN
-»	PUNCT
+«аль	NOUN
+денте»	NOUN
 ,	PUNCT
-то	SCONJ
+то	PRON
 есть	VERB
 на	ADP
 зуб	NOUN
 .	PUNCT
 
-# sent_id = 6
+# sent_id = 6 
 # text = Лишившаяся дома и мужа по причине любви, Дербина устроилась на участке, что располагался верстах в пяти от Вологды, и облегченно вздохнула.
 Лишившаяся	VERB
 дома	NOUN
@@ -123,9 +123,9 @@
 вздохнула	VERB
 .	PUNCT
 
-# sent_id = 7
+# sent_id = 7 
 # text = Нда, ну я несмотря на свой мега-супер-пупер-перфекционизм пожалуй буду согласен на 4.
-Нда	PROPN
+Нда	ADV
 ,	PUNCT
 ну	PART
 я	PRON
@@ -133,11 +133,11 @@
 на	ADP
 свой	DET
 мега	NOUN
--	NOUN
+-	PUNCT
 супер	NOUN
--	NOUN
+-	PUNCT
 пупер	NOUN
--	NOUN
+-	PUNCT
 перфекционизм	NOUN
 пожалуй	ADV
 буду	AUX
@@ -146,27 +146,25 @@
 4	NUM
 .	PUNCT
 
-# sent_id = 8
+# sent_id = 8 
 # text = Я могу обожгаться.
 Я	PRON
 могу	VERB
 обожгаться	VERB
 .	PUNCT
 
-# sent_id = 9
+# sent_id = 9 
 # text = У меня тут какая-то мусоринка попала сюда.
 У	ADP
 меня	PRON
 тут	ADV
-какая	DET
--	DET
-то	DET
+какая-то	DET
 мусоринка	NOUN
 попала	VERB
 сюда	ADV
 .	PUNCT
 
-# sent_id = 10
+# sent_id = 10 
 # text = А там кто, в хлеве?
 А	CCONJ
 там	ADV
@@ -176,7 +174,7 @@
 хлеве	NOUN
 ?	PUNCT
 
-# sent_id = 11
+# sent_id = 11 
 # text = Почему мы в сафарию пойдем?
 Почему	ADV
 мы	PRON
@@ -185,19 +183,17 @@
 пойдем	VERB
 ?	PUNCT
 
-# sent_id = 12
+# sent_id = 12 
 # text = Что ты хочешь что-то там шерхнуть?
 Что	PRON
 ты	PRON
 хочешь	VERB
-что	PRON
--	PRON
-то	PRON
+что-то	PRON
 там	ADV
 шерхнуть	VERB
 ?	PUNCT
 
-# sent_id = 13
+# sent_id = 13 
 # text = Он смеется, что я ему еду даваю.
 Он	PRON
 смеется	VERB
@@ -205,17 +201,15 @@
 что	SCONJ
 я	PRON
 ему	PRON
-еду	NOUN
+еду	VERB
 даваю	VERB
 .	PUNCT
 
-# sent_id = 14
+# sent_id = 14 
 # text = Технология приготовления су-вид родилась во Франции и дословно переводится «в вакууме».
 Технология	NOUN
 приготовления	NOUN
-су	NOUN
--	NOUN
-вид	NOUN
+су-вид	NOUN
 родилась	VERB
 во	ADP
 Франции	PROPN
@@ -228,7 +222,7 @@
 »	PUNCT
 .	PUNCT
 
-# sent_id = 15
+# sent_id = 15 
 # text = Да он не отличает Тинторетто от амаретто.
 Да	PART
 он	PRON
@@ -239,14 +233,14 @@
 амаретто	NOUN
 .	PUNCT
 
-# sent_id = 16
+# sent_id = 16 
 # text = Как бы вы не обозвали мокко, вкус напитка не изменится.
 Как	ADV
 бы	AUX
 вы	PRON
 не	PART
 обозвали	VERB
-мокко	NOUN
+мокко	ADV
 ,	PUNCT
 вкус	NOUN
 напитка	NOUN
@@ -254,10 +248,10 @@
 изменится	VERB
 .	PUNCT
 
-# sent_id = 17
+# sent_id = 17 
 # text = Нередко рецепт кули состоит из одного компонента.
 Нередко	ADV
-рецепт	NOUN
+рецепт	VERB
 кули	NOUN
 состоит	VERB
 из	ADP
@@ -265,7 +259,7 @@
 компонента	NOUN
 .	PUNCT
 
-# sent_id = 18
+# sent_id = 18 
 # text = В компоте кладут цедру цитрусовых, корицу, мускат, перец.
 В	ADP
 компоте	NOUN
@@ -280,7 +274,7 @@
 перец	NOUN
 .	PUNCT
 
-# sent_id = 19
+# sent_id = 19 
 # text = Я знаю: обжига язычок обжигает.
 Я	PRON
 знаю	VERB
@@ -290,7 +284,7 @@
 обжигает	VERB
 .	PUNCT
 
-# sent_id = 20
+# sent_id = 20 
 # text = Не поземка, а полземка.
 Не	PART
 поземка	NOUN
@@ -299,17 +293,17 @@
 полземка	NOUN
 .	PUNCT
 
-# sent_id = 21
+# sent_id = 21 
 # text = Ну, тогда поземка-полземка.
 Ну	PART
 ,	PUNCT
 тогда	ADV
 поземка	NOUN
--	NOUN
+-	PUNCT
 полземка	NOUN
 .	PUNCT
 
-# sent_id = 22
+# sent_id = 22 
 # text = Я не вижу, где рваность.
 Я	PRON
 не	PART
@@ -319,16 +313,16 @@
 рваность	NOUN
 .	PUNCT
 
-# sent_id = 23
+# sent_id = 23 
 # text = Не интересно мне это читание.
 Не	PART
-интересно	ADJ
+интересно	ADV
 мне	PRON
 это	DET
 читание	NOUN
 .	PUNCT
 
-# sent_id = 24
+# sent_id = 24 
 # text = Был приказ до конца недели оформить «по-музыкальному» класс.
 Был	VERB
 приказ	NOUN
@@ -336,15 +330,11 @@
 конца	NOUN
 недели	NOUN
 оформить	VERB
-«	PUNCT
-по	ADV
--	ADV
-музыкальному	ADJ
-»	PUNCT
+«по-музыкальному»	NOUN
 класс	NOUN
 .	PUNCT
 
-# sent_id = 25
+# sent_id = 25 
 # text = Что она на диктофон в телефоне записывает кучу песен с муз. центра.
 Что	PRON
 она	PRON
@@ -361,14 +351,15 @@
 центра	NOUN
 .	PUNCT
 
-# sent_id = 26
+# sent_id = 26 
 # text = Увы, любимцы муз, свершился жребий мой!
 Увы	ADV
 ,	PUNCT
 любимцы	NOUN
-муз	PROPN
+муз	NOUN
 ,	PUNCT
 свершился	VERB
-жребий	NOUN
+жребий	ADJ
 мой	DET
 !	PUNCT
+
