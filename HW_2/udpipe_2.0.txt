@@ -216,10 +216,8 @@
 и	CCONJ
 дословно	ADV
 переводится	VERB
-«	PUNCT
-в	ADP
-вакууме	NOUN
-»	PUNCT
+«в	NOUN
+вакууме»	NOUN
 .	PUNCT
 
 # sent_id = 15 
